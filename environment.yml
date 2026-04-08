@@ -1,0 +1,23 @@
+name: ml-det
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - seaborn=0.13.2
+  - pandas=2.2.3
+  - jupyterlab=4.2.5
+  - spyder=6.0.4
+  - matplotlib=3.9.2
+  - statsmodels=0.14.2
+  - scikit-learn=1.5.2
+  - openpyxl=3.1.5
+  - et_xmlfile=1.1.0
+  - plotly=6.5.0
+  - r-base=4.4.3
+  - rpy2
+  - pip
+  - pip:
+      - ifeel
+      - tsfeatures
+      - shap==0.50.0 

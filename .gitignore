@@ -1,0 +1,23 @@
+# Data
+data/*
+!data/README.md
+config.yml
+
+# Outputs
+outputs/*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
